@@ -167,7 +167,7 @@
       .col-lg-8(data-aos="fade-down")
         .titulo-sexto.color-acento-contenido
           p.mb-0 #[b Figura 2]
-          p.mb-0 #[i Modo weight paint en Blender]
+          p.mb-0 #[i Modo Weight Paint en Blender]
         figure
           img(src="@/assets/curso/tema1/img04.jpg", alt="Modo weight paint en Blender")
         .BG03.py-4.px-5
@@ -526,7 +526,7 @@ export default {
       {
         titulo: 'Paso 6',
         texto:
-          'Con todo acomodado, seleccionamos nuestro esqueleto en Object mode, y le aplicamos en la pestaña Armature, el botón Generate rigg.<br><br>Esto creará los controladores necesarios para la animación de los huesos del personaje, cabe resaltar que podría aparecer en escala más pequeña, lo que tendremos que acomodar simplemente moviéndolo y escalándolo.',
+          'Con todo acomodado, seleccionamos nuestro esqueleto en Object mode, y le aplicamos en la pestaña Armature, el botón Generate Rig.<br><br>Esto creará los controladores necesarios para la animación de los huesos del personaje, cabe resaltar que podría aparecer en escala más pequeña, lo que tendremos que acomodar simplemente moviéndolo y escalándolo.',
         imagen: require('@/assets/curso/tema1/img16.jpg'),
       },
       {
