@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-bogota-dc.github.io/CF3_DESARROLLO_VIDEOJUEGOS_INTERACTIVOS/](hhttps://ecored-bogota-dc.github.io/CF3_DESARROLLO_VIDEOJUEGOS_INTERACTIVOS/)
+[https://ecored-bogota-dc.github.io/CF3_DESARROLLO_VIDEOJUEGOS_INTERACTIVOS/](https://ecored-bogota-dc.github.io/CF3_DESARROLLO_VIDEOJUEGOS_INTERACTIVOS/)
 
 #
 
