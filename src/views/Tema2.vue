@@ -538,7 +538,7 @@
             .col-lg-5
               .titulo-sexto.color-acento-contenido
                 p.mb-0 #[b Figura 15]
-                p.mb-0 #[em Squash and stretch]
+                p.mb-0 #[i Squash and stretch]
               figure
                 img(src='@/assets/curso/tema2/1.gif', alt='Squash y stretch')
       #MapaCollapse02.collapse(data-bs-parent='#MapaGroup01')
@@ -551,7 +551,7 @@
             .col-lg-5
               .titulo-sexto.color-acento-contenido
                 p.mb-0 #[b Figura 16]
-                p.mb-0 #[i Anticipación.]
+                p.mb-0 Anticipación
               figure
                 img(src='@/assets/curso/tema2/2.gif', alt='Anticipación')
       #MapaCollapse03.collapse(data-bs-parent='#MapaGroup01')  
@@ -564,7 +564,7 @@
             .col-lg-5
               .titulo-sexto.color-acento-contenido
                 p.mb-0 #[b Figura 17]
-                p.mb-0 #[i Puesta en escena.]
+                p.mb-0 Puesta en escena
               figure
                 img(src='@/assets/curso/tema2/3.gif', alt='Puesta en escena')
       #MapaCollapse04.collapse(data-bs-parent='#MapaGroup01')
@@ -578,7 +578,7 @@
             .col-lg-5
               .titulo-sexto.color-acento-contenido
                 p.mb-0 #[b Figura 18]
-                p.mb-0 #[em Pose to pose].
+                p.mb-0 #[i Pose to pose]
               figure
                 img(src='@/assets/curso/tema2/4.gif', alt='Pose to pose.')
       #MapaCollapse05.collapse(data-bs-parent='#MapaGroup01')
@@ -591,7 +591,7 @@
             .col-lg-5
               .titulo-sexto.color-acento-contenido
                 p.mb-0 #[b Figura 19]
-                p.mb-0 #[em Overlapping action].
+                p.mb-0 #[i Overlapping action]
               figure
                 img(src='@/assets/curso/tema2/5.gif', alt='Overlapping action')
       #MapaCollapse06.collapse(data-bs-parent='#MapaGroup01')
@@ -601,12 +601,12 @@
           .row
             .col-lg-7
               p.mt-5.mb-4 Permite darle una gestualidad al movimiento de la animación con fluidez. Esto permite que un objeto que se va a animar, adquiera carácter. Logrando darle al objeto un tono de velocidad, por ejemplo, puede arrancar lento y a medida que avanza aumenta su velocidad, o al contrario, puede ir corriendo e ir frenando.
-              p.mb-4 #[strong Slow in.] Si observamos un auto cuando arranca empieza en 0, pero este va aumentando su velocidad, a esto le llamaríamos #[em Slow in], en el que se encuentra acelerando.
-              p #[strong Slow out.] Este mismo carro ya viene a alta velocidad y empieza a frenar, lo definimos como #[em slow out]. Se puede determinar el tipo de velocidad con el que puede avanzar el personaje. Un timing igual se vuelve aburrido, monótono; en cambio, si este tiene aceleración o desaceleración, mostrará dinamismo, a pesar de que el tiempo de carrera sea el mismo. Esto influye en generar emociones con las acciones.
+              p.mb-4 #[strong #[i Slow in].] Si observamos un auto cuando arranca empieza en 0, pero este va aumentando su velocidad, a esto le llamaríamos #[em Slow in], en el que se encuentra acelerando.
+              p #[strong #[i Slow out].] Este mismo carro ya viene a alta velocidad y empieza a frenar, lo definimos como #[em slow out]. Se puede determinar el tipo de velocidad con el que puede avanzar el personaje. Un timing igual se vuelve aburrido, monótono; en cambio, si este tiene aceleración o desaceleración, mostrará dinamismo, a pesar de que el tiempo de carrera sea el mismo. Esto influye en generar emociones con las acciones.
             .col-lg-5
               .titulo-sexto.color-acento-contenido
                 p.mb-0 #[b Figura 20]
-                p.mb-0 #[em Slow in and slow out].
+                p.mb-0 #[i Slow in and slow out]
               figure
                 img(src='@/assets/curso/tema2/6.gif', alt='Slow in and slow out')
       #MapaCollapse07.collapse(data-bs-parent='#MapaGroup01')
@@ -619,7 +619,7 @@
             .col-lg-5
               .titulo-sexto.color-acento-contenido
                 p.mb-0 #[b Figura 19]
-                p.mb-0 #[em Arcs].
+                p.mb-0 #[i Arcs]
               figure
                 img(src='@/assets/curso/tema2/7.gif', alt='Arcs')
       #MapaCollapse08.collapse(data-bs-parent='#MapaGroup01')
@@ -632,7 +632,7 @@
             .col-lg-5
               .titulo-sexto.color-acento-contenido
                 p.mb-0 #[b Figura 22]
-                p.mb-0 #[em Timing].
+                p.mb-0 #[em Timing]
               figure
                 img(src='@/assets/curso/tema2/8.gif', alt='Timing')
       #MapaCollapse09.collapse(data-bs-parent='#MapaGroup01')
@@ -645,7 +645,7 @@
             .col-lg-5
               .titulo-sexto.color-acento-contenido
                 p.mb-0 #[b Figura 23]
-                p.mb-0 #[i Exageración.]
+                p.mb-0 Exageración
               figure
                 img(src='@/assets/curso/tema2/9.gif', alt='Exageración')
       #MapaCollapse10.collapse(data-bs-parent='#MapaGroup01')
@@ -658,7 +658,7 @@
             .col-lg-5
               .titulo-sexto.color-acento-contenido
                 p.mb-0 #[b Figura 24]
-                p.mb-0 #[i Acciones secundarias.]
+                p.mb-0 Acciones secundarias
               figure
                 img(src='@/assets/curso/tema2/10.gif', alt='Acciones secundarias')
       #MapaCollapse11.collapse(data-bs-parent='#MapaGroup01')
@@ -671,7 +671,7 @@
             .col-lg-5
               .titulo-sexto.color-acento-contenido
                 p.mb-0 #[b Figura 25]
-                p.mb-0 #[i Dibujo sólido.]
+                p.mb-0 Dibujo sólido
               figure
                 img(src='@/assets/curso/tema2/11.gif', alt='Dibujo sólido')
       #MapaCollapse12.collapse(data-bs-parent='#MapaGroup01')
@@ -684,7 +684,7 @@
             .col-lg-5
               .titulo-sexto.color-acento-contenido
                 p.mb-0 #[b Figura 25]
-                p.mb-0 #[em Appeal].
+                p.mb-0 #[em Appeal]
               figure
                 img(src='@/assets/curso/tema2/12.gif', alt='Appeal')
     separador
@@ -694,7 +694,7 @@
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           p.mb-0 #[b Figura 27]
-          p.mb-0 #[i Inactivo.]
+          p.mb-0 Inactivo
         figure.mb-5(data-aos="fade-right")
           img(src='@/assets/curso/tema2/img28.jpg', alt='Inactivo')
         .row.justify-content-center.mb-5(data-aos="fade-left")
@@ -712,7 +712,7 @@
         p.mb-4(data-aos="fade-right") En la tercera figura el #[em frame] 13 es casi igual que la primera, solo que los brazos y piernas van en sentido opuesto, igual que en la cuarta imagen #[em frame] 19, la pierna izquierda es la que está plantada y es parecida al #[em frame] 7 y la última figura, el #[em frame] 25, es la misma que el #[em frame] 1. Todos estos #[em frames] se repetirán indefinidamente, y entre ellos, se pueden completar los #[em frames] faltantes para darle fluidez al movimiento, pero con estos #[em frames] realizados ya se puede ver la acción. El cuerpo nunca se mueve recto, pues el cuerpo sube y baja.
         .titulo-sexto.color-acento-contenido.color-acento-contenido(data-aos="fade-right")
           p.mb-0 #[b Figura 28]
-          p.mb-0 #[em Walk / Caminar.]
+          p.mb-0 #[i Walk] / Caminar
         figure.mb-5(data-aos="fade-down")
           img(src='@/assets/curso/tema2/img29.jpg', alt='Walk, Caminar')
         h3.text-center.Color3.bordLineT.pt-5(data-aos="fade-right") #[em Jump]
@@ -721,7 +721,7 @@
             p.mb-0 El salto permite que el personaje se desplace hacia arriba, despegándose del suelo, para poder llegar a otro lado, o caer en el mismo punto de origen. esquivar un enemigo, saltar y destruir un #[em npc].
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           p.mb-0 #[b Figura 29]
-          p.mb-0 #[em Jump / Saltar.] 
+          p.mb-0 #[i Jump] / Saltar
         figure.mb-5(data-aos="fade-down")
           img(src='@/assets/curso/tema2/img30.jpg', alt='Jump')
         .video.mb-5(data-aos="fade-left")
@@ -732,7 +732,7 @@
             p.mb-0 Una de las animaciones más usadas, es como el personaje ataca, lanza un golpe o usa una espada. Estos son movimientos que, por lo general, son movimientos rápidos: puede mover las piernas para crear estabilidad en el movimiento y verse natural; es importante siempre llegar al mismo punto de partida.
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           p.mb-0 #[b Figura 30]
-          p.mb-0 #[i Ataque esqueleto.]
+          p.mb-0 Ataque esqueleto
         figure.mb-4(data-aos="fade-down")
           img(src='@/assets/curso/tema2/img31.jpg', alt='Ataque')
         .row.justify-content-center.mb-5(data-aos="fade-left")
@@ -748,7 +748,7 @@
             p.mb-0 La acción de agacharse puede referirse cuando el personaje trata de ocultarse, pasar bajo algo, necesitar recoger algún elemento del suelo, esquivar un golpe, una bala, un #[em npc] aéreo, entre muchas más.
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           p.mb-0 #[b Figura 31]
-          p.mb-0 #[i Agacharse.]
+          p.mb-0 Agacharse
         figure.mb-5(data-aos="fade-left")
           img(src='@/assets/curso/tema2/img32.jpg', alt='Agacharse')
         .video.mb-5(data-aos="fade-down")
@@ -759,7 +759,7 @@
             p.mb-0 La muerte del personaje puede pasar porque pisó algún elemento que lo mataba de una o por que le fueron quitando la sangre poco a poco. Aquí se puede mostrar cómo el personaje cae al piso, después de que pierde su vida. Es importante tener como eje principal los pies del personaje, para que al momento de pasar la animación al motor de juego, este caiga correctamente, y no se deslice.
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           p.mb-0 #[b Figura 32]
-          p.mb-0 #[em Dead].
+          p.mb-0 #[em Dead]
         figure.mb-5(data-aos="fade-left")
           img(src='@/assets/curso/tema2/img33.jpg', alt='Dead')
         .video(data-aos="fade-right")

@@ -43,7 +43,7 @@
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           p.mb-0 #[b Figura 33]
-          p.mb-0 #[i Cualidades del sonido]
+          p.mb-0 Cualidades del sonido
         figure.mb-5(data-aos="fade-right")
           img(src='@/assets/curso/tema3/img06.svg', alt='Cualidades del sonido')
           figcaption Nota. Tomada de https://edbar01.wordpress.com/about/ondas-mecanicas/el-sonido/cualidades-del-sonido
@@ -112,7 +112,7 @@
             .col-lg-7
               .titulo-sexto.color-acento-contenido
                 p.mb-0 #[b Figura 34]
-                p.mb-0 #[em Escena del videojuego The Shadow of Colossus]
+                p.mb-0 Escena del videojuego The Shadow of Colossus
               figure
                 img(src='@/assets/curso/tema3/img11.jpg', alt='Texto que describa la imagen')
                 figcaption Nota. Tomada de <a href="https://www.hobbyconsolas.com/guias-trucos/shadow-colossus-ps4/localizacion-todas-monedas-shadow-colossus-ps4-188724" target="_blank">https://www.hobbyconsolas.com/guias-trucos/shadow-colossus-ps4/localizacion-todas-monedas-shadow-colossus-ps4-188724</a>
@@ -124,7 +124,7 @@
             .col-lg-7
               .titulo-sexto.color-acento-contenido
                 p.mb-0 #[b Figura 35]
-                p.mb-0 #[i Escena del videojuego Medalla de honor]
+                p.mb-0 Escena del videojuego Medalla de honor
               figure
                 img(src='@/assets/curso/tema3/img12.jpg', alt='Texto que describa la imagen')
                 figcaption Nota. Tomada de https://www.vidaextra.com
@@ -136,7 +136,7 @@
             .col-lg-7
               .titulo-sexto.color-acento-contenido
                 p.mb-0 #[b Figura 36]
-                p.mb-0 #[em Escenas del videojuego Resident Evil]
+                p.mb-0 Escenas del videojuego Resident Evil
               figure
                 img(src='@/assets/curso/tema3/img13.jpg', alt='Texto que describa la imagen')
                 figcaption Fuente:https://www.mobygames.com/images/shots/l/177261-resident-evil-2-playstation-screenshot-running-would-be-the.png

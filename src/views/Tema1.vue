@@ -27,7 +27,7 @@
       .col-lg-8(data-aos="fade-down")
         .titulo-sexto.color-acento-contenido
           p.mb-0 #[b Figura 1]
-          p.mb-0 #[i Ejemplo de rigging en una mano]
+          p.mb-0 Ejemplo de #[i rigging] en una mano
         figure
           img(src="@/assets/curso/tema1/img02.png", alt="Ejemplo de rigging en una mano")
           figcaption Nota. Tomada de https://commons.wikimedia.org/wiki/File:Sintel-hand.png (Imagen con derechos Creative Commons Licences).
@@ -167,7 +167,7 @@
       .col-lg-8(data-aos="fade-down")
         .titulo-sexto.color-acento-contenido
           p.mb-0 #[b Figura 2]
-          p.mb-0 #[i Modo Weight Paint en Blender]
+          p.mb-0 Modo Weight Paint en Blender
         figure
           img(src="@/assets/curso/tema1/img04.jpg", alt="Modo weight paint en Blender")
         .BG03.py-4.px-5
@@ -375,13 +375,13 @@
             .col-lg-6.mb-4.mb-lg-0
               .titulo-sexto.color-acento-contenido
                 p.mb-0 #[b Figura 3]
-                p.mb-0 #[i Mixamo]
+                p.mb-0 Mixamo
               figure
                 img(src='@/assets/curso/tema1/img18.jpg', alt='Mixamo')
             .col-lg-6
               .titulo-sexto.color-acento-contenido
                 p.mb-0 #[b Figura 4]
-                p.mb-0 #[i Seleccionar personaje]
+                p.mb-0 Seleccionar personaje
               figure
                 img(src='@/assets/curso/tema1/img19.jpg', alt='Seleccionar personaje')
           .row(numero="2" titulo="Paso dos")
@@ -390,7 +390,7 @@
             .col-lg-6
               .titulo-sexto.color-acento-contenido
                 p.mb-0 #[b Figura 5]
-                p.mb-0 #[i Herramientas circulares]
+                p.mb-0 Herramientas circulares
               figure
                 img(src='@/assets/curso/tema1/img20.jpg', alt='Herramientas circulares')
           .row(numero="3" titulo="Paso tres")
@@ -399,7 +399,7 @@
             .col-lg-6
               .titulo-sexto.color-acento-contenido
                 p.mb-0 #[b Figura 6]
-                p.mb-0 #[i Rig completo]
+                p.mb-0 Rig completo
               figure
                 img(src='@/assets/curso/tema1/img21.jpg', alt='Rig completo')
           .row(numero="4" titulo="Paso cuatro")
@@ -408,7 +408,7 @@
             .col-lg-6
               .titulo-sexto.color-acento-contenido
                 p.mb-0 #[b Figura 7]
-                p.mb-0 #[i Descargar documento]
+                p.mb-0 Descargar documento
               figure
                 img(src='@/assets/curso/tema1/img22.jpg', alt='Descargar documento')
         .BG03.p-4.mb-4
@@ -428,7 +428,7 @@
             .col-lg-6
               .titulo-sexto.color-acento-contenido
                 p.mb-0 #[b Figura 8]
-                p.mb-0 #[em Skinning en Blender pintando pesos en vértices]
+                p.mb-0 Skinning en Blender pintando pesos en vértices
               figure
                 img(src='@/assets/curso/tema1/img23.jpg', alt='Skinning en blender')
           .row(numero="2" titulo="Paso dos")
@@ -437,7 +437,7 @@
             .col-lg-6
               .titulo-sexto.color-acento-contenido
                 p.mb-0 #[b Figura 9]
-                p.mb-0 #[em Addon script interface]
+                p.mb-0 Addon script interface
               figure
                 img(src='@/assets/curso/tema1/img24.jpg', alt='Addon script interface')
           .row(numero="3" titulo="Paso tres")
@@ -446,7 +446,7 @@
             .col-lg-6
               .titulo-sexto.color-acento-contenido
                 p.mb-0 #[b Figura 10]
-                p.mb-0 #[em Selección object mode]
+                p.mb-0 Selección Object Mode
               figure
                 img(src='@/assets/curso/tema1/img25.jpg', alt='Selección object mode')
           .row(numero="4" titulo="Paso cuatro")
@@ -455,7 +455,7 @@
             .col-lg-6
               .titulo-sexto.color-acento-contenido
                 p.mb-0 #[b Figura 11]
-                p.mb-0 #[i Pintando pesos]
+                p.mb-0 Pintando pesos
               figure
                 img(src='@/assets/curso/tema1/img26.jpg', alt='Descargar documento')
           .row(numero="5" titulo="Paso cinco")
@@ -464,7 +464,7 @@
             .col-lg-6
               .titulo-sexto.color-acento-contenido
                 p.mb-0 #[b Figura 12]
-                p.mb-0 #[i Pesos huesos por huesos]
+                p.mb-0 Pesos huesos por huesos
               figure
                 img(src='@/assets/curso/tema1/img27.jpg', alt='Descargar documento')
           .row(numero="6" titulo="Paso seis")
@@ -472,13 +472,13 @@
             .col-lg-6.mb-4.mb-lg-0
               .titulo-sexto.color-acento-contenido
                 p.mb-0 #[b Figura 13]
-                p.mb-0 #[i Estado de reposo]
+                p.mb-0 Estado de reposo
               figure
                 img(src='@/assets/curso/tema1/img28.jpg', alt='Estado de reposo')
             .col-lg-6
               .titulo-sexto.color-acento-contenido
                 p.mb-0 #[b Figura 14]
-                p.mb-0 #[i Pose de salto]
+                p.mb-0 Pose de salto
               figure
                 img(src='@/assets/curso/tema1/img29.jpg', alt='Pose de Salto')
         .BG03.p-4.mb-4
@@ -497,7 +497,7 @@ export default {
       {
         titulo: 'Paso 1',
         texto:
-          'Vamos a la pestaña <i>Edit - Preferences</i> y buscamos <i>Addons</i>, en la pestaña <i>Addons</i>, en el buscador escribimos <i><strong>rigg</strong></i>, nos aparecerá <i>Rigging: Riggify</i>, y lo activamos.',
+          'Vamos a la pestaña <i>Edit - Preferences</i> y buscamos <i>Addons</i>, en la pestaña <i>Addons</i>, en el buscador escribimos <i><strong>rigg</strong></i>, nos aparecerá <i>Rigging: Rigify</i>, y lo activamos.',
         imagen: require('@/assets/curso/tema1/img11.jpg'),
       },
       {
