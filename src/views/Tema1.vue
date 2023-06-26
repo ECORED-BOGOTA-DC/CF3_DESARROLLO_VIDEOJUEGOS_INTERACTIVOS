@@ -367,50 +367,50 @@
     .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-lg-10
         LineaTiempoD.color-primario.mb-5
-          .row(numero="1" titulo="Paso uno")
-            p.mb-4 
+          .row.justify-content-center(numero="1" titulo="Paso uno")
+            p
               | Se ingresa en la página 
               a.fw-bold(href='https://www.mixamo.com' target="_blank") https://www.mixamo.com, 
               |  se hace el registro en ella y se accede a un panel para subir el modelo en #[em fbx] sin esqueletos, es decir solo la malla. Luego, se clica donde dice #[em Upload Character].
-            .col-lg-6.mb-4.mb-lg-0
+            .col-lg-10.mb-4
               .titulo-sexto.color-acento-contenido
                 p.mb-0 #[b Figura 3]
                 p.mb-0 Mixamo
               figure
-                img(src='@/assets/curso/tema1/img18.jpg', alt='Mixamo')
-            .col-lg-6
+                img(src='@/assets/curso/tema1/img18.png', alt='Mixamo')
+            .col-lg-10
               .titulo-sexto.color-acento-contenido
                 p.mb-0 #[b Figura 4]
                 p.mb-0 Seleccionar personaje
               figure
-                img(src='@/assets/curso/tema1/img19.jpg', alt='Seleccionar personaje')
-          .row(numero="2" titulo="Paso dos")
-            .col-lg-6.mb-4.mb-lg-0
+                img(src='@/assets/curso/tema1/img19.png', alt='Seleccionar personaje')
+          .row.justify-content-center(numero="2" titulo="Paso dos")
+            .col-12
               p Se da #[em next] y saldrá una pantalla con herramientas circulares, esos puntos son los que se deben acomodar en el personaje según el esquema que aparece de ejemplo.
-            .col-lg-6
+            .col-lg-10
               .titulo-sexto.color-acento-contenido
                 p.mb-0 #[b Figura 5]
                 p.mb-0 Herramientas circulares
               figure
-                img(src='@/assets/curso/tema1/img20.jpg', alt='Herramientas circulares')
-          .row(numero="3" titulo="Paso tres")
-            .col-lg-6.mb-4.mb-lg-0
+                img(src='@/assets/curso/tema1/img20.png', alt='Herramientas circulares')
+          .row.justify-content-center(numero="3" titulo="Paso tres")
+            .col-12
               p Se da clic en #[em next] y Mixamo empezará el trabajo de #[em rig]. Se debe esperar un poco mientras se procesa el modelo. Una vez terminado el proceso el personaje aparece con una animación idle de prueba, así se constata que quedó completo el #[em rig].
-            .col-lg-6
+            .col-lg-10
               .titulo-sexto.color-acento-contenido
                 p.mb-0 #[b Figura 6]
                 p.mb-0 Rig completo
               figure
-                img(src='@/assets/curso/tema1/img21.jpg', alt='Rig completo')
-          .row(numero="4" titulo="Paso cuatro")
-            .col-lg-6.mb-4.mb-lg-0
+                img(src='@/assets/curso/tema1/img21.png', alt='Rig completo')
+          .row.justify-content-center(numero="4" titulo="Paso cuatro")
+            .col-12
               p Mixamo tiene animaciones prediseñadas, simplemente se da clic en la que desea y se verá aplicada en el personaje, una vez seleccionada, se presiona el botón #[em download] y se tendrá el #[em rig] con la animación en un archivo #[em fbx].
-            .col-lg-6
+            .col-lg-10
               .titulo-sexto.color-acento-contenido
                 p.mb-0 #[b Figura 7]
                 p.mb-0 Descargar documento
               figure
-                img(src='@/assets/curso/tema1/img22.jpg', alt='Descargar documento')
+                img(src='@/assets/curso/tema1/img22.png', alt='Descargar documento')
         .BG03.p-4.mb-4
           p.text-center.mb-0 En el siguiente video tutorial se puede ver el #[em autorig] con Mixamo.
         .video
@@ -422,65 +422,65 @@
     .row.justify-content-center.mb-4
       .col-lg-10(data-aos="fade-left")
         LineaTiempoD.color-primario.mb-5
-          .row(numero="1" titulo="Paso uno")
-            .col-lg-6.mb-4.mb-lg-0
+          .row.justify-content-center(numero="1" titulo="Paso uno")
+            .col-12
               p Para ello se trabaja el peso de los huesos sobre la malla, seleccionando en Object Mode la malla, y luego clicando el menú Weight Paint.
-            .col-lg-6
+            .col-10
               .titulo-sexto.color-acento-contenido
                 p.mb-0 #[b Figura 8]
                 p.mb-0 Skinning en Blender pintando pesos en vértices
               figure
-                img(src='@/assets/curso/tema1/img23.jpg', alt='Skinning en blender')
-          .row(numero="2" titulo="Paso dos")
-            .col-lg-6.mb-4.mb-lg-0
+                img(src='@/assets/curso/tema1/img23.png', alt='Skinning en blender')
+          .row.justify-content-center(numero="2" titulo="Paso dos")
+            .col-12
               p Antes que nada, hay que ir a #[em Preferences – Addons], y activar el #[em Script interface: copy attributes menu], para copiar información de pesos y así pegarla donde se necesite.
-            .col-lg-6
+            .col-lg-10
               .titulo-sexto.color-acento-contenido
                 p.mb-0 #[b Figura 9]
                 p.mb-0 Addon script interface
               figure
-                img(src='@/assets/curso/tema1/img24.jpg', alt='Addon script interface')
-          .row(numero="3" titulo="Paso tres")
-            .col-lg-6.mb-4.mb-lg-0
+                img(src='@/assets/curso/tema1/img24.png', alt='Addon script interface')
+          .row.justify-content-center(numero="3" titulo="Paso tres")
+            .col-12
               p Se selecciona la malla desde el menú Object Mode.
-            .col-lg-6
+            .col-lg-10
               .titulo-sexto.color-acento-contenido
                 p.mb-0 #[b Figura 10]
                 p.mb-0 Selección Object Mode
               figure
-                img(src='@/assets/curso/tema1/img25.jpg', alt='Selección object mode')
-          .row(numero="4" titulo="Paso cuatro")
-            .col-lg-6.mb-4.mb-lg-0
+                img(src='@/assets/curso/tema1/img25.png', alt='Selección object mode')
+          .row.justify-content-center(numero="4" titulo="Paso cuatro")
+            .col-12
               p Con la malla elegida se vuelve a la selección de menú y se da Weight Paint para utilizar las herramientas de peso malla y en ella se puede ver un selector de herramientas del lado izquierdo. Con la herramienta Draw se comienza a pintar los pesos de nuestra malla. Cuando se pinta, lo que se ve más rojo es lo que tiene mayor peso, lo que está en azul tiene peso nulo, lo que está en verde tiene peso moderado. Para pintar con más peso se debe aumentar el Weight; si se quiere restar peso, el Weight debe estar en 0. En la siguiente imagen se puede ver la afectación del peso en la muñeca del personaje Flynn, donde el verde representa el peso de afectación media, y en el antebrazo se degrada hasta azul para mostrar una transición en la que el movimiento de la muñeca afectará mínimamente el antebrazo.
-            .col-lg-6
+            .col-lg-10
               .titulo-sexto.color-acento-contenido
                 p.mb-0 #[b Figura 11]
                 p.mb-0 Pintando pesos
               figure
-                img(src='@/assets/curso/tema1/img26.jpg', alt='Descargar documento')
-          .row(numero="5" titulo="Paso cinco")
-            .col-lg-6.mb-4.mb-lg-0
+                img(src='@/assets/curso/tema1/img26.png', alt='Descargar documento')
+          .row.justify-content-center(numero="5" titulo="Paso cinco")
+            .col-12
               p De esta manera, el proceso se repite para cada uno de los huesos, teniendo en cuenta la jerarquía, como en la imagen siguiente donde el hueso principal debe ser afectado bastante y los huesos siguientes deben tener una afectación mínima, casi nula.
-            .col-lg-6
+            .col-lg-10
               .titulo-sexto.color-acento-contenido
                 p.mb-0 #[b Figura 12]
                 p.mb-0 Pesos huesos por huesos
               figure
-                img(src='@/assets/curso/tema1/img27.jpg', alt='Descargar documento')
-          .row(numero="6" titulo="Paso seis")
-            p.mb-4 Acomodados los pesos en los huesos ya está el personaje listo para ser animado. A continuación, tenemos dos imágenes de referencia del objeto, en estado de reposo y en pose de salto.
-            .col-lg-6.mb-4.mb-lg-0
+                img(src='@/assets/curso/tema1/img27.png', alt='Descargar documento')
+          .row.justify-content-center(numero="6" titulo="Paso seis")
+            p Acomodados los pesos en los huesos ya está el personaje listo para ser animado. A continuación, tenemos dos imágenes de referencia del objeto, en estado de reposo y en pose de salto.
+            .col-lg-10.mb-4
               .titulo-sexto.color-acento-contenido
                 p.mb-0 #[b Figura 13]
                 p.mb-0 Estado de reposo
               figure
-                img(src='@/assets/curso/tema1/img28.jpg', alt='Estado de reposo')
-            .col-lg-6
+                img(src='@/assets/curso/tema1/img28.png', alt='Estado de reposo')
+            .col-lg-10
               .titulo-sexto.color-acento-contenido
                 p.mb-0 #[b Figura 14]
                 p.mb-0 Pose de salto
               figure
-                img(src='@/assets/curso/tema1/img29.jpg', alt='Pose de Salto')
+                img(src='@/assets/curso/tema1/img29.png', alt='Pose de Salto')
         .BG03.p-4.mb-4
           p.text-center.mb-0 A través del siguiente video tutorial se verá cómo se modifican los pesos en el #[em skinn] del personaje.
         .video
@@ -498,42 +498,42 @@ export default {
         titulo: 'Paso 1',
         texto:
           'Vamos a la pestaña <i>Edit - Preferences</i> y buscamos <i>Addons</i>, en la pestaña <i>Addons</i>, en el buscador escribimos <i><strong>rigg</strong></i>, nos aparecerá <i>Rigging: Rigify</i>, y lo activamos.',
-        imagen: require('@/assets/curso/tema1/img11.jpg'),
+        imagen: require('@/assets/curso/tema1/img11.png'),
       },
       {
         titulo: 'Paso 2',
         texto:
           'El primer paso será ir al modo objeto y darle en la pestaña <i>Add - Armature Basic - Basic Human (MetaRig)</i>, con esto, nos agregará un esqueleto humanoide a nuestra escena.',
-        imagen: require('@/assets/curso/tema1/img12.jpg'),
+        imagen: require('@/assets/curso/tema1/img12.png'),
       },
       {
         titulo: 'Paso 3',
         texto: 'Ahora lo escalamos y movemos para acomodarlo en nuestra malla.',
-        imagen: require('@/assets/curso/tema1/img13.jpg'),
+        imagen: require('@/assets/curso/tema1/img13.png'),
       },
       {
         titulo: 'Paso 4',
         texto:
           'En el modo edición, acomodamos los huesos para que compaginen con las partes del cuerpo de nuestro personaje. Lo realizamos seleccionando el hueso que queremos modificar y le damos mover con la tecla G. Ten en cuenta que si activamos en las opciones de <i>Active Tool X-Axis Mirror</i>, lo que hagamos en un lado se hará en el otro, por ende, nos ahorrará la tarea de acomodar los huesos en la otra mitad del cuerpo.',
-        imagen: require('@/assets/curso/tema1/img14.jpg'),
+        imagen: require('@/assets/curso/tema1/img14.png'),
       },
       {
         titulo: 'Paso 5',
         texto:
           'Una vez tengamos acomodados los huesos de nuestro personaje, revisamos que esté todo en orden y alineado tanto en vista frontal como lateral.',
-        imagen: require('@/assets/curso/tema1/img15.jpg'),
+        imagen: require('@/assets/curso/tema1/img15.png'),
       },
       {
         titulo: 'Paso 6',
         texto:
           'Con todo acomodado, seleccionamos nuestro esqueleto en Object mode, y le aplicamos en la pestaña Armature, el botón Generate Rig.<br><br>Esto creará los controladores necesarios para la animación de los huesos del personaje, cabe resaltar que podría aparecer en escala más pequeña, lo que tendremos que acomodar simplemente moviéndolo y escalándolo.',
-        imagen: require('@/assets/curso/tema1/img16.jpg'),
+        imagen: require('@/assets/curso/tema1/img16.png'),
       },
       {
         titulo: 'Paso 7',
         texto:
           'Finalmente, vamos a <i>object mode</i>. Seleccionamos primero nuestra malla y luego el controlador global del personaje, con clic derecho buscamos <i>parent – with automátic weights</i>. Y así tendremos listo nuestro personaje con <i>rigg</i> gracias al <i>addon riggify</i>.',
-        imagen: require('@/assets/curso/tema1/img17.jpg'),
+        imagen: require('@/assets/curso/tema1/img17.png'),
       },
     ],
   }),
